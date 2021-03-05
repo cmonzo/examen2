@@ -1,0 +1,151 @@
+h1{
+    text-transform: uppercase;
+    font-family: 'AkayaKanadaka-Regular';
+    text-shadow: rgb(168, 8, 8) 5px 5px 5px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+@font-face{
+    src: url(fuentes/AkayaKanadaka-Regular.ttf);
+    font-family: 'AkayaKanadaka-Regular';
+}
+
+body{
+    background-color: rgb(236, 236, 181);
+    
+}
+
+header{
+    background-color: rgb(236, 113, 68);
+    height: 5em;
+    font-size: 200%;
+    padding-top: 1em;
+}
+a{
+    padding: 1em, 2em, 15em, 2em;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+    
+
+}
+li{
+    display: inline;
+    margin-right: 10px;
+    border: rgb(148, 63, 33) 2px solid;
+    background-color: rgb(236, 113, 68);
+    font-size: 125%;
+    color: white;
+}
+nav{
+    background-color: rgb(236, 236, 181);
+    padding: 3em, 0em;
+    border: rgb(148, 63, 33) 5px solid;
+   
+}
+
+li:hover{
+    background-color: rgb(240, 94, 94);
+}
+article.dos{
+    z-index: 3;
+    background-color: rgb(223, 223, 116);
+    color: rgb(221, 141, 21);
+    border: rgb(150, 150, 26) 5px solid;
+    width: 33%;
+    text-align: left;
+    padding-bottom: 10em;
+    top: 70%;
+    left: 10%;
+}
+article.uno{
+    z-index: 2;
+    background-color: rgb(236, 113, 68);
+    color: rgb(161, 9, 9);
+    border: red 5px solid;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 10em;
+    top: 50%;
+    left: 33%;
+    
+}
+p.sub{
+    text-decoration: overline;
+}
+article.tres{
+    z-index: 1;
+    background-color: rgb(117, 214, 218);
+    color: rgb(196, 115, 9);
+    border: rgb(112, 185, 207) 5px solid;
+    width: 33%;
+    text-align: right;
+    padding-bottom: 10em;
+    top: 70%;
+    right: 10%;
+}
+article.uno:hover{
+    z-index: 4;
+}
+article.dos:hover{
+    z-index: 4;
+}
+article.tres:hover{
+    z-index: 4;
+}
+
+article{
+    position: absolute;
+}
+p.imagen{
+    background-image: url(img/naranja2.svg);
+    background-repeat: repeat-x;
+    
+}
+
+footer{
+    background-color: rgb(223, 223, 116);
+    position: absolute;
+    bottom: -25%;
+    width: 100%;
+    text-align: center;
+    color: rgb(236, 113, 68);
+    font-size: 115%;
+
+}
+
+article.imagen2{
+    background-image: url(img/naranja2.svg);
+    background-repeat: repeat-x;
+    bottom: -10%;
+    width: 100%;
+    background-size: 2em;
+}
+
+article.final{
+    background-color: rgb(236, 113, 68);
+    width: 100%;
+    bottom: -20%;
+    height: 3em;
+}
+
+article.our{
+    
+    width: 30%;
+    background-color: rgb(236, 113, 68);
+    color: white;
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    
+}
+
+a{
+    text-decoration: none;
+}
